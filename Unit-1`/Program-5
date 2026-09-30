@@ -1,35 +1,9 @@
-//5.Multiplication table using while, do-while and for
+//5. Demonstrate Single-Line and Multi-Line Comments
 
 #include <stdio.h>
-
 int main()
 {
-    int n, i;
-
-    printf("Enter a number: ");
-    scanf("%d", &n);
-
-    printf("\nUsing while loop:\n");
-    i = 1;
-    while(i <= 10)
-    {
-        printf("%d x %d = %d\n", n, i, n*i);
-        i++;
-    }
-
-    printf("\nUsing do-while loop:\n");
-    i = 1;
-    do
-    {
-        printf("%d x %d = %d\n", n, i, n*i);
-        i++;
-    } while(i <= 10);
-
-    printf("\nUsing for loop:\n");
-    for(i = 1; i <= 10; i++)
-    {
-        printf("%d x %d = %d\n", n, i, n*i);
-    }
-
-    return 0;
+ printf("Hello, World!\n");
+ printf("This program demonstrates comments in C.\n");
+ return 0;
 }
